@@ -1,5 +1,3 @@
-
-
 package com.alonsocage.componentes.activities;
 
 import android.Manifest;
