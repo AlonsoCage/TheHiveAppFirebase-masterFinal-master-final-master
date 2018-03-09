@@ -1,0 +1,134 @@
+
+<resources>
+    <string name="app_name">The Hive App</string>
+    <string name="label_create_post_activity">Crear Post</string>
+    <string name="label_post_detail_activity">Detalles del Post</string>
+    <string name="label_image_detail_activity">Imagen</string>
+    <string name="title_activity_login">Entra</string>
+    <string name="title_activity_create_profile">Crear Perfil</string>
+    <string name="title_activity_profile">Perfil</string>
+    <string name="title_activity_edit_profile">Editar Perfil</string>
+    <string name="title_activity_edit_post">Editar Post</string>
+
+    <string name="text_take_photo">Sacar Foto</string>
+    <string name="text_pick_photo">Elegir de la galeria</string>
+    <string name="button_title_cancel">Cancelar</string>
+    <string name="button_ok">OK</string>
+
+    <string name="hint_title">Titulo</string>
+    <string name="hint_description">Descripcion</string>
+
+    <string name="message_post_was_created">El post ha sido creado</string>
+    <string name="error_fail_create_post">Fallo al crear el post</string>
+    <string name="error_fail_load_image">Fallo al cargar la imagen</string>
+    <string name="error_fail_crop_image">Fallo al obtener la imagen</string>
+    <string name="error_smaller_image">Imagen muy pequeña. El tamaño deberia ser 100x100 px</string>
+    <string name="error_incorrect_file_type">Tipo de archivo incorrecto</string>
+    <string name="error_bigger_file">Tamaño del archivo mayor a 10Mb</string>
+    <string name="message_creating_post">Creando post ..</string>
+    <string name="message_saving">Guardando ..</string>
+    <string name="warning_empty_image">Se requiere una imagen</string>
+    <string name="warning_empty_title">Se requiere un titulo</string>
+    <string name="warning_empty_description">Se requiere una descripcion</string>
+    <string name="error_post_title_length">El maximo del titulo no debe superar los 255 caracteres</string>
+    <string name="error_fail_remove_post">Fallo al borrar el post</string>
+    <string name="message_post_was_removed">El post fue borrado</string>
+    <string name="error_fail_update_post">Fallo al actualizar el post</string>
+    <string name="error_post_was_removed">El post fue borrado</string>
+    <string name="confirm_deletion_post">Borrar el post?</string>
+
+    <string name="comment_text_hint">Inserta tu comentario…</string>
+    <string name="button_post_comment">Post comentado</string>
+
+    <string name="label_comments">Comentarios (%1$d):</string>
+
+    <string name="create_post_menu_label">Post</string>
+    <string name="create_post_full_menu_label">Crear post</string>
+    <string name="sign_out_menu_label">Salir</string>
+    <string name="edit_profile_menu_label">Editar Perfil</string>
+    <string name="button_title_save">Hecho</string>
+    <string name="button_title_continue">Continuar</string>
+
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_name">Nombre</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_conf_password">Confirmar Contraseña</string>
+    <string name="action_create_profile">Continuar</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="error_profile_name_length">El maximo de no debe superar los 120 caracteres </string>
+    <string name="error_invalid_email">La direccion email no es valida</string>
+    <string name="error_confirm_password">La contraseña no es valida</string>
+    <string name="action_sign_in">Entra</string>
+    <string name="permissions_not_granted">Cancelando, no tienes permisos</string>
+    <string name="error_fail_create_profile">Fallo al crear el perfil</string>
+    <string name="error_fail_update_profile">Fallo al actualizar el perfil</string>
+    <string name="text_login">Gracias por usar The Hive App! Por favor, entra para continuar.</string>
+    <string name="error_authentication">Autenticacion Fallida</string>
+    <string name="error_google_play_services">Google Play Services error.</string>
+    <string name="button_login_with_facebook">Entra con facebook</string>
+    <string name="button_login_with_google">Entra con google</string>
+
+
+    <string name="loading">Cargando...</string>
+    <string name="removing">Borrando...</string>
+    <string name="error_general">Algo salio mal.</string>
+    <string name="error_general_post">Algo salio mal con el post, id: %1$s</string>
+    <string name="internet_connection_failed">No hay conexion a internet</string>
+
+
+
+    <string name="error_invalid_password">Esta contraseña es muy corta</string>
+    <string name="error_incorrect_password">Esta contraseña es incorrecta</string>
+    <string name="permission_rationale">"Necesitas permisos de contacto para añadir un email ."
+    </string>
+
+    <string name="profile_menu_item">Perfil</string>
+    <string name="collapse_text_label">Enseñar menos</string>
+    <string name="expand_text_label">Enseñar mas</string>
+    <string name="add_complain">Quejarse</string>
+    <string name="edit_post_menu">Editar post</string>
+    <string name="delete_post_menu">Borrar post</string>
+    <string name="complain_text">Puedes quejarte, pero si usas contenido violento tu comentario no aparecera y nuestras abejas iran a por ti.</string>
+
+    <string name="send_comment_button_label">Enviar</string>
+    <string name="posted_by_label">Enviado por:</string>
+
+    <plurals name="posts_counter_format">
+        <item quantity="one">Post</item>
+        <item quantity="other">Posts</item>
+    </plurals>
+
+    <plurals name="likes_counter_format">
+        <item quantity="one">Me gusta</item>
+        <item quantity="other">Me gustas</item>
+    </plurals>
+
+    <string name="posts_label">Posts:</string>
+    <string name="complain_sent">Tu queja fue enviada satisfactoriamente</string>
+    <string name="now_time_range">Ahora</string>
+
+    <string name="duration_minutes_shortest">%1$d m</string>
+    <string name="duration_hours_shortest">%1$d h</string>
+    <string name="duration_days_shortest">%1$d d</string>
+    <string name="duration_week_shortest">%1$d s</string>
+
+    <string name="post_image_transition_name" translatable="false">post_image_transition</string>
+    <string name="post_author_image_transition_name" translatable="false">post_author_image_transition_name</string>
+    <string name="message_new_post_was_created">Un nuevo post fue creado</string>
+
+    <plurals name="new_posts_counter_format">
+        <item quantity="one">%1$d nuevo post</item>
+        <item quantity="other">%1$d nuevos posts</item>
+    </plurals>
+
+    <string name="edit_comment_menu_item">Editar</string>
+    <string name="delete_comment_menu_item">Borrar</string>
+    <string name="message_comment_was_removed">El comentario fue eliminado</string>
+    <string name="message_comment_was_edited">El comentario fue editado</string>
+    <string name="title_edit_comment">Editar comentario</string>
+
+
+    <string name="permission_denied_error">Por favor mira las reglas para acceder a Firebase</string>
+
+</resources>
